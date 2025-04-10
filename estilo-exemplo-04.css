@@ -16,4 +16,7 @@
 #resp {
     background-color: #d4d2d2;
     padding: 1rem;
+    width: 23rem;
+    height: 20rem;
+    border-radius: .5rem;
 }
