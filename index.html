@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="resp"></div>
+    <div class="container"></div>
     <script>
-        var num = prompt("Informe o número");
-        document.getElementById("resp").innerHTML = "Número informado: " + num;
+        var num1 = parseInt(prompt("Informe o número"));
+        var num2 = parseInt(prompt("Informe o número"));
+        var soma = num1 + num2;
+        document.getElementById("resp").innerHTML = `${num1} + ${num2} = ${soma}`;
     </script>
 </body>
 </html>
