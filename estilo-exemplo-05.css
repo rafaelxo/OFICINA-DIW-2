@@ -43,17 +43,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 
 #resp {
     width: 100%;
     height: 100%;
     border-radius: .5rem;
-    border: 1px green solid;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    overflow: auto;
 }
 
 button {
