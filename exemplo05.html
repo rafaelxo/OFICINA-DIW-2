@@ -13,7 +13,7 @@
         <section class="cabecalho">
             <input type="number" id="numero1" class="entrada">
             <input type="number" id="numero2" class="entrada">
-            <button>somar</button>
+            <button onclick="somar()">somar</button>
         </section>
         <main class="corpo">
             <div id="resp"></div>
@@ -21,12 +21,14 @@
     </div>
 
     <script>
-        var num1 = ;
-        var num2 = ;
+        function somar() {
+            var num2 = parseInt(numero2.value);
+            var num1 = parseInt(numero1.value);
 
-        var soma = num1 + num2;
+            var soma = num1 + num2;
 
-        document.getElementById("resp").innerHTML = `${num1} + ${num2} = ${soma}`;
+            document.getElementById("resp").innerHTML = `<p>${num1} + ${num2} = ${soma}</p>`;
+        }
     </script>
 </body>
 
