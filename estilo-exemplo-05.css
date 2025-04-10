@@ -20,14 +20,16 @@
     color: #787373;
     font-weight: bolder;
     width: 23rem;
+    border-radius: .5rem;
 }
 
 .cabecalho {
-    height: 5rem;
+    height: 4rem;
+    margin-bottom: 1rem;
 }
 
 .corpo {
-    height: 14rem;
+    height: 13rem;
 }
 
 #resp {
