@@ -26,6 +26,13 @@
 .cabecalho {
     height: 4rem;
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.entrada {
+    width: 7rem;
 }
 
 .corpo {

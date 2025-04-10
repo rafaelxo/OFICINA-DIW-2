@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo</title>
     <link rel="stylesheet" href="estilo-exemplo-05.css">
 </head>
+
 <body>
     <div class="painel">
         <section class="cabecalho">
-
+            <input type="number" class="entrada">
+            <input type="number" class="entrada">
+            <button>somar</button>
         </section>
         <main class="corpo">
             <div id="resp"></div>
@@ -25,4 +29,5 @@
         document.getElementById("resp").innerHTML = `${num1} + ${num2} = ${soma}`;
     </script>
 </body>
+
 </html>
