@@ -13,12 +13,25 @@
     box-shadow: .5rem .5rem .3rem .01rem #d4d2d2;
 }
 
-#resp {
+.cabecalho,
+.corpo {
     background-color: #d4d2d2;
     padding: 1rem;
+    color: #787373;
+    font-weight: bolder;
+    width: 23rem;
+}
+
+.cabecalho {
+    height: 5rem;
+}
+
+.corpo {
+    height: 14rem;
+}
+
+#resp {
     width: 23rem;
     height: 20rem;
     border-radius: .5rem;
-    color: #787373;
-    font-weight: bolder;
 }
